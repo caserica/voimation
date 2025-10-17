@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true)
@@ -35,7 +35,7 @@ const Header = () => {
           {/* Logo - Fixed Left Position */}
           <div className="flex items-center" style={{ position: 'absolute', left: '24px', zIndex: 10 }}>
             <img 
-              src="/logo.png" 
+              src={`${import.meta.env.BASE_URL}logo.png`}
               alt="Logo" 
               style={{
                 width: '170px',

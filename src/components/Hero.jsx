@@ -4,7 +4,7 @@ const Hero = () => {
       {/* Hero Background Image with Gradient Overlay - Full coverage for mobile */}
       <div className="absolute inset-0">
         <img 
-          src="/hero.png" 
+          src={`${import.meta.env.BASE_URL}hero.png`}
           alt="Hero Background" 
           className="w-full h-full object-cover sm:w-4/5 sm:h-4/5 sm:mx-auto sm:mt-8"
           style={{ 

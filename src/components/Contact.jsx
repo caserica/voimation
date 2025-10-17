@@ -45,7 +45,7 @@ ${formData.name}`
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="/endbackground.png" 
+          src={`${import.meta.env.BASE_URL}endbackground.png`}
           alt="Contact Background" 
           className="w-full h-full object-cover"
         />
@@ -54,14 +54,14 @@ ${formData.name}`
       {/* Decorative Elements - responsive positioning */}
       <div className="absolute top-16 sm:top-32 right-4 sm:right-16 opacity-60">
         <img 
-          src="/endspiral.png" 
+          src={`${import.meta.env.BASE_URL}endspiral.png`}
           alt="Spiral" 
           className="w-16 h-16 sm:w-32 sm:h-32 object-contain"
         />
       </div>
       <div className="absolute top-40 sm:top-80 left-4 sm:left-16 opacity-60">
         <img 
-          src="/endstar.png" 
+          src={`${import.meta.env.BASE_URL}endstar.png`}
           alt="Star" 
           className="w-14 h-14 sm:w-28 sm:h-28 object-contain"
         />
@@ -169,7 +169,7 @@ ${formData.name}`
             <div className="md:col-span-2">
               <div className="flex items-center mb-4">
                 <img 
-                  src="/logo.png" 
+                  src={`${import.meta.env.BASE_URL}logo.png`}
                   alt="Logo" 
                   style={{
                     width: '187px',
