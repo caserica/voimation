@@ -35,7 +35,7 @@ const Header = () => {
           {/* Logo - Fixed Left Position */}
           <div className="flex items-center" style={{ position: 'absolute', left: '24px', zIndex: 10 }}>
             <img 
-              src={`${import.meta.env.BASE_URL}logo.png`}
+              src="/logo.png"
               alt="Logo" 
               style={{
                 width: '170px',
