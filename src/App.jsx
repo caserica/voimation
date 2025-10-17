@@ -18,7 +18,7 @@ const HomePage = () => (
 
 function App() {
   return (
-    <Router>
+    <Router basename="/voimation">
       <div className="min-h-screen">
         <Header />
         <Routes>
